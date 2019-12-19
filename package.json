@@ -1,0 +1,29 @@
+{
+  "name": "AlphabetInvasion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "watchify index.js -o build/bundle.js -v" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koteswar375/AlphabetInvasion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koteswar375/AlphabetInvasion/issues"
+  },
+  "homepage": "https://github.com/koteswar375/AlphabetInvasion#readme",
+  "devDependencies": {
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "dependencies": {
+    "rxjs": "^6.5.3"
+  }
+}
